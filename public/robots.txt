@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+
+# Prevent crawling of admin or sensitive pages
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://globalgrab.co.ke/sitemap.xml
