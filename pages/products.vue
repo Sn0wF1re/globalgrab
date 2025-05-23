@@ -194,15 +194,17 @@
                 class="h-48 w-full object-cover" 
                 src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" 
                 alt="Beauty & Health"
-                loading="lazy" 
-                format="webp"
+                loading="lazy"
                 width="800"
                 height="400" 
                 quality="80"
+                format="webp"
                 :modifiers="{
                   fit: 'cover',
                   format: 'webp',
                 }"
+                provider="ipx"
+                sizes="sm:100vw md:50vw lg:33vw"
               />
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 text-foreground">Beauty & Health</h3>
