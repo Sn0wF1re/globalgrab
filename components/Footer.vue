@@ -5,7 +5,7 @@
         <div>
           <div class="text-2xl font-bold mb-6 flex items-center font-heading">
             <Icon name="lucide:shopping-cart" class="text-primary mr-2" />
-            <span>GlobalGrab</span>
+            <span class="text-primary">GlobalGrab</span>
             <span class="text-xs text-accent font-medium ml-1">Kenya</span>
           </div>
           <p class="text-gray-300 mb-6">
@@ -96,3 +96,9 @@
 <script setup>
 import TiktokIcon from '~/components/icons/TiktokIcon.vue';
 </script>
+
+<style scoped>
+h3 {
+  color: #FFFFFF;
+}
+</style>

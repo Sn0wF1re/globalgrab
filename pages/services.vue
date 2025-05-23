@@ -5,7 +5,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <ScrollAnimation>
-            <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6">Our Shopping Services</h1>
+            <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6 text-gray-900">Our Shopping Services</h1>
             <p class="text-gray-600 text-lg">From refurbished tech to personalized shopping, we've got you covered with our range of services.</p>
           </ScrollAnimation>
         </div>
@@ -14,28 +14,28 @@
           <div class="space-y-8 order-2 md:order-1">
             <ScrollAnimation>
               <div class="bg-gray-50 rounded-xl p-6 shadow-sm border-l-4 border-primary mb-8">
-                <h3 class="text-xl font-bold font-heading mb-2">Tech Procurement</h3>
+                <h3 class="text-xl font-bold font-heading mb-2 text-gray-900">Tech Procurement</h3>
                 <p class="text-gray-600">We source quality refurbished laptops, smartphones, tablets, and other electronics at the best prices.</p>
               </div>
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.2">
               <div class="bg-gray-50 rounded-xl p-6 shadow-sm border-l-4 border-secondary mb-8">
-                <h3 class="text-xl font-bold font-heading mb-2">Personal Shopping</h3>
+                <h3 class="text-xl font-bold font-heading mb-2 text-gray-900">Personal Shopping</h3>
                 <p class="text-gray-600">Need something specific from overseas? We'll find it, purchase it, and deliver it to you with complete transparency.</p>
               </div>
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.4">
               <div class="bg-gray-50 rounded-xl p-6 shadow-sm border-l-4 border-accent mb-8">
-                <h3 class="text-xl font-bold font-heading mb-2">Bulk Orders</h3>
+                <h3 class="text-xl font-bold font-heading mb-2 text-gray-900">Bulk Orders</h3>
                 <p class="text-gray-600">For businesses or groups looking to purchase multiple items, we offer special rates and expedited processing.</p>
               </div>
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.6">
               <div class="bg-gray-50 rounded-xl p-6 shadow-sm border-l-4 border-yellow-400 mb-8">
-                <h3 class="text-xl font-bold font-heading mb-2">Consultation Services</h3>
+                <h3 class="text-xl font-bold font-heading mb-2 text-gray-900">Consultation Services</h3>
                 <p class="text-gray-600">Not sure what to get? Our experts can help you make the right choice based on your needs and budget.</p>
               </div>
             </ScrollAnimation>
@@ -70,7 +70,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <ScrollAnimation>
-            <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">Our Pricing Structure</h2>
+            <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4 text-gray-900">Our Pricing Structure</h2>
             <p class="text-gray-600">We believe in complete transparency. Here's how our pricing works.</p>
           </ScrollAnimation>
         </div>
@@ -81,7 +81,7 @@
               <div class="text-primary text-4xl mb-4">
                 <Icon name="lucide:tag" class="h-10 w-10" />
               </div>
-              <h3 class="text-xl font-bold font-heading mb-3">Product Cost</h3>
+              <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">Product Cost</h3>
               <p class="text-gray-600 mb-4">The actual price we pay for your product. We provide a screenshot of the purchase for complete transparency.</p>
               <div class="bg-gray-50 rounded-lg p-4">
                 <span class="font-bold">Example:</span> A laptop that costs $800 overseas = KSh 104,000
