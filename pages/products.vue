@@ -66,12 +66,11 @@
                   loading="lazy" 
                   width="500"
                   height="400"
-                  format="webp"
                   quality="80"
-                  :modifiers="{
-                    fit: 'contain',
-                    format: 'webp',
-                  }"
+                  format="webp"
+                  preset="product"
+                  provider="ipx"
+                  sizes="sm:300px md:400px lg:500px"
                 />
               </div>
               
@@ -127,14 +126,16 @@
                 src="https://images.unsplash.com/photo-1550745165-9bc0b252726f" 
                 alt="Electronics"
                 loading="lazy"
-                format="webp"
                 width="800"
                 height="400" 
                 quality="80"
+                format="webp"
                 :modifiers="{
                   fit: 'cover',
                   format: 'webp',
                 }"
+                provider="ipx"
+                sizes="sm:100vw md:50vw lg:33vw"
               />
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 text-foreground">Electronics</h3>
@@ -147,15 +148,17 @@
                 class="h-48 w-full object-cover" 
                 src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f" 
                 alt="Fashion"
-                loading="lazy" 
-                format="webp"
+                loading="lazy"
                 width="800"
                 height="400" 
                 quality="80"
+                format="webp"
                 :modifiers="{
                   fit: 'cover',
                   format: 'webp',
                 }"
+                provider="ipx"
+                sizes="sm:100vw md:50vw lg:33vw"
               />
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 text-foreground">Fashion</h3>
@@ -168,15 +171,17 @@
                 class="h-48 w-full object-cover" 
                 src="https://images.unsplash.com/photo-1620626011761-996317b8d101" 
                 alt="Home & Kitchen"
-                loading="lazy" 
-                format="webp"
+                loading="lazy"
                 width="800"
                 height="400" 
                 quality="80"
+                format="webp"
                 :modifiers="{
                   fit: 'cover',
                   format: 'webp',
                 }"
+                provider="ipx"
+                sizes="sm:100vw md:50vw lg:33vw"
               />
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 text-foreground">Home & Kitchen</h3>
@@ -458,16 +463,27 @@ const getBadgeColor = (color) => {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 .product-image {
   max-height: 100%;
   object-fit: contain;
+  width: auto !important;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
   .product-image-container {
     height: 220px;
+  }
+  
+  /* Ensure images are properly scaled on mobile */
+  .product-image {
+    height: auto !important;
+    width: auto !important;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 </style>

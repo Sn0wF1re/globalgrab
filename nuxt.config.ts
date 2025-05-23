@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   },
   image: {
     quality: 80,
-    format: ['webp', 'avif', 'png', 'jpg'],
+    format: ['webp', 'avif', 'png', 'jpg', 'jpeg'],
     screens: {
       xs: 320,
       sm: 640,
@@ -69,6 +69,28 @@ export default defineNuxtConfig({
       xl: 1280,
       xxl: 1536,
     },
+    providers: {
+      ipx: {
+        options: {
+          modifiers: {
+            format: 'webp',
+            quality: '80',
+            background: 'white',
+            fit: 'cover',
+          }
+        }
+      }
+    },
+    presets: {
+      product: {
+        modifiers: {
+          fit: 'contain',
+          format: 'webp',
+          quality: '80',
+          background: 'white',
+        }
+      }
+    }
   },
   typescript: {
     strict: true
