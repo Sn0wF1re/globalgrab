@@ -9,12 +9,17 @@
     aria-hidden="true"
   >
     <NuxtImg
-      :src="imageUrl"
+      src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
       width="1920"
       height="1080"
       format="webp"
       quality="80"
       :placeholder="[10, 10, 10, 10]"
+      provider="ipx"
+      :modifiers="{
+        fit: 'cover',
+        format: 'webp'
+      }"
       class="absolute inset-0 object-cover w-full h-full"
       fetchpriority="high"
       loading="eager"
@@ -55,7 +60,6 @@ const props = defineProps({
 
 const mapRef = ref(null)
 const imageLoaded = ref(false)
-const imageUrl = '/images/world-map.webp'
 
 // Handle image load event
 const handleImageLoad = () => {
