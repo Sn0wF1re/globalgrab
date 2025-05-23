@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       pathPrefix: false,
     }
   ],
-  css: ['~/assets/css/main.css', '~/assets/css/mobile-fixes.css'],
+  css: ['~/assets/css/main.css',],
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
     configPath: '~/tailwind.config.ts',
