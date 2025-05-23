@@ -6,7 +6,7 @@
           <div class="text-2xl font-bold mb-6 flex items-center font-heading">
             <Icon name="lucide:shopping-cart" class="text-primary mr-2" />
             <span class="text-primary">GlobalGrab</span>
-            <span class="text-xs text-accent font-medium ml-1">Kenya</span>
+            <span class="text-xs text-accent text-secondary font-medium ml-1">Kenya</span>
           </div>
           <p class="text-gray-300 mb-6">
             Your trusted personal shopping partner, bringing the world's best products to your doorstep in Kenya. From tech to custom requests - we fetch it all!

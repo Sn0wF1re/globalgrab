@@ -84,7 +84,7 @@
               <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">Product Cost</h3>
               <p class="text-gray-600 mb-4">The actual price we pay for your product. We provide a screenshot of the purchase for complete transparency.</p>
               <div class="bg-gray-50 rounded-lg p-4">
-                <span class="font-bold">Example:</span> A laptop that costs $800 overseas = KSh 104,000
+                <span class="font-bold text-foreground">Example:</span> A laptop that costs $800 overseas = KSh 104,000
               </div>
             </div>
           </ScrollAnimation>
@@ -94,10 +94,10 @@
               <div class="text-secondary text-4xl mb-4">
                 <Icon name="lucide:check" class="h-10 w-10" />
               </div>
-              <h3 class="text-xl font-bold font-heading mb-3">Shipping & Customs</h3>
+              <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">Shipping & Customs</h3>
               <p class="text-gray-600 mb-4">International shipping costs, insurance, and any import duties or taxes required to bring the item to Kenya.</p>
               <div class="bg-gray-50 rounded-lg p-4">
-                <span class="font-bold">Example:</span> Shipping, insurance & import duties = KSh 15,000-25,000
+                <span class="font-bold text-foreground">Example:</span> Shipping, insurance & import duties = KSh 15,000-25,000
               </div>
             </div>
           </ScrollAnimation>
@@ -107,10 +107,10 @@
               <div class="text-accent text-4xl mb-4">
                 <Icon name="lucide:dollar-sign" class="h-10 w-10" />
               </div>
-              <h3 class="text-xl font-bold font-heading mb-3">Service Fee</h3>
+              <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">Service Fee</h3>
               <p class="text-gray-600 mb-4">Our facilitation fee for sourcing, verifying quality, handling logistics, and ensuring safe delivery.</p>
               <div class="bg-gray-50 rounded-lg p-4">
-                <span class="font-bold">Example:</span> 10-15% of product cost, depending on complexity
+                <span class="font-bold text-foreground">Example:</span> 10-15% of product cost, depending on complexity
               </div>
             </div>
           </ScrollAnimation>
@@ -123,7 +123,7 @@
                 <Icon name="lucide:lightbulb" class="h-10 w-10" />
               </div>
               <div>
-                <h3 class="text-xl font-bold font-heading mb-3">Why Choose Our Service?</h3>
+                <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">Why Choose Our Service?</h3>
                 <p class="text-gray-600 mb-4">Even with our service fee, you'll typically save 20-40% compared to buying similar products locally in Kenya. We provide access to a wider selection, better quality, and the peace of mind that comes with a trusted shopping partner.</p>
                 <NuxtLink to="/contact" class="text-primary font-medium hover:underline inline-flex items-center">
                   Get a custom quote 
@@ -141,7 +141,7 @@
       <div class="container mx-auto px-4 max-w-4xl">
         <ScrollAnimation>
           <div class="bg-primary/5 rounded-2xl p-10 text-center">
-            <h2 class="text-3xl font-bold font-heading mb-4">Ready to experience our services?</h2>
+            <h2 class="text-3xl font-bold font-heading mb-4 text-gray-900">Ready to experience our services?</h2>
             <p class="text-gray-600 mb-8 max-w-xl mx-auto">Get in touch with us today and let us help you find the perfect products at the best prices.</p>
             <NuxtLink to="/contact">
               <Button class="px-8 py-3 bg-primary hover:bg-primary-dark text-white rounded-full">

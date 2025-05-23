@@ -5,7 +5,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto">
           <ScrollAnimation>
-            <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6">How Our Shopping Service Works</h1>
+            <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">How Our Shopping Service Works</h1>
             <p class="text-gray-600 text-lg mb-8">
               We've simplified the process of getting your desired products from overseas to your doorstep in Kenya.
             </p>
@@ -20,7 +20,7 @@
       <div class="container mx-auto px-4 relative">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <ScrollAnimation>
-            <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">Our Simple Process</h2>
+            <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4 text-foreground">Our Simple Process</h2>
             <p class="text-gray-600">Getting your desired products from overseas is simple with our streamlined process.</p>
           </ScrollAnimation>
         </div>
@@ -34,7 +34,7 @@
                 <div class="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4 mx-auto md:mx-0">
                   {{ step.number }}
                 </div>
-                <h3 class="text-xl font-bold font-heading mb-3 text-center md:text-left">{{ step.title }}</h3>
+                <h3 class="text-xl font-bold font-heading mb-3 text-center md:text-left text-gray-900">{{ step.title }}</h3>
                 <p class="text-gray-600">{{ step.description }}</p>
               </div>
             </ScrollAnimation>
@@ -58,13 +58,13 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <ScrollAnimation>
-            <h2 class="text-3xl font-bold font-heading mb-8 text-center">Detailed Process Explanation</h2>
+            <h2 class="text-3xl font-bold font-heading mb-8 text-center text-foreground">Detailed Process Explanation</h2>
           </ScrollAnimation>
           
           <div class="space-y-8">
             <ScrollAnimation>
               <div class="bg-gray-50 rounded-xl p-8 border-l-4 border-primary mb-8 hover:shadow-md transition-all duration-300">
-                <h3 class="text-xl font-bold font-heading mb-3">1. Request Product</h3>
+                <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">1. Request Product</h3>
                 <p class="text-gray-600 mb-4">
                   Begin by filling out our detailed product request form on the contact page or reaching out to us directly via phone or email. Provide as many details as possible about the product you're looking for, including specifications, model numbers, and your budget range.
                 </p>
@@ -76,7 +76,7 @@
             
             <ScrollAnimation>
               <div class="bg-gray-50 rounded-xl p-8 border-l-4 border-secondary mb-8 hover:shadow-md transition-all duration-300">
-                <h3 class="text-xl font-bold font-heading mb-3">2. Get a Quote</h3>
+                <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">2. Get a Quote</h3>
                 <p class="text-gray-600 mb-4">
                   Within 24-48 hours of receiving your request, our team will research the best options, availability, and pricing. We'll prepare a detailed quote that includes:
                 </p>
@@ -95,7 +95,7 @@
             
             <ScrollAnimation>
               <div class="bg-gray-50 rounded-xl p-8 border-l-4 border-accent mb-8 hover:shadow-md transition-all duration-300">
-                <h3 class="text-xl font-bold font-heading mb-3">3. Confirm & Pay</h3>
+                <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">3. Confirm & Pay</h3>
                 <p class="text-gray-600 mb-4">
                   Once you review and approve the quote, we'll send you a payment link to complete the transaction. We accept various payment methods including:
                 </p>
@@ -113,7 +113,7 @@
             
             <ScrollAnimation>
               <div class="bg-gray-50 rounded-xl p-8 border-l-4 border-yellow-400 mb-8 hover:shadow-md transition-all duration-300">
-                <h3 class="text-xl font-bold font-heading mb-3">4. Receive Product</h3>
+                <h3 class="text-xl font-bold font-heading mb-3 text-gray-900">4. Receive Product</h3>
                 <p class="text-gray-600 mb-4">
                   We handle all the logistics of getting your product to Kenya, including:
                 </p>
@@ -153,7 +153,7 @@
                   </div>
                 </div>
                 <div class="p-8 flex flex-col justify-center">
-                  <h3 class="text-2xl font-bold font-heading mb-4">A Seamless Experience</h3>
+                  <h3 class="text-2xl font-bold font-heading mb-4 text-gray-900">A Seamless Experience</h3>
                   <p class="text-gray-600 mb-6">
                     "I was hesitant about ordering tech from overseas, but GlobalGrab made the process incredibly easy. Their transparent pricing and constant updates gave me peace of mind, and my MacBook arrived in perfect condition and at a price that was 30% less than local options."
                   </p>
@@ -162,7 +162,7 @@
                       <Icon name="lucide:code" class="h-6 w-6" />
                     </div>
                     <div>
-                      <h4 class="font-bold">David Kimani</h4>
+                      <h4 class="font-bold text-gray-900">David Kimani</h4>
                       <p class="text-sm text-gray-500">Software Developer, Nairobi</p>
                     </div>
                   </div>

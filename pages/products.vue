@@ -76,7 +76,7 @@
               </div>
               
               <div class="p-6 flex flex-col h-full">
-                <h3 class="text-lg font-bold mb-2 text-center">{{ product.name }}</h3>
+                <h3 class="text-lg font-bold mb-2 text-center text-foreground">{{ product.name }}</h3>
                 <div class="mb-4 flex justify-center">
                   <RatingStars :rating="product.rating" />
                 </div>
@@ -137,7 +137,7 @@
                 }"
               />
               <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">Electronics</h3>
+                <h3 class="text-xl font-bold mb-2 text-foreground">Electronics</h3>
                 <p class="text-gray-600">Latest gadgets, smartphones, laptops and more</p>
               </div>
             </div>
@@ -158,7 +158,7 @@
                 }"
               />
               <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">Fashion</h3>
+                <h3 class="text-xl font-bold mb-2 text-foreground">Fashion</h3>
                 <p class="text-gray-600">Designer clothing, shoes and accessories</p>
               </div>
             </div>
@@ -179,7 +179,7 @@
                 }"
               />
               <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">Home & Kitchen</h3>
+                <h3 class="text-xl font-bold mb-2 text-foreground">Home & Kitchen</h3>
                 <p class="text-gray-600">Appliances, decor and furnishings</p>
               </div>
             </div>
@@ -200,7 +200,7 @@
                 }"
               />
               <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">Beauty & Health</h3>
+                <h3 class="text-xl font-bold mb-2 text-foreground">Beauty & Health</h3>
                 <p class="text-gray-600">Premium cosmetics, fragrances, and wellness products</p>
               </div>
             </div>

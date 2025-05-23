@@ -13,7 +13,7 @@
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.2" direction="up">
-              <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight">
+              <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight text-foreground">
                 Welcome to <span class="text-primary">GlobalGrab</span> Kenya
               </h1>
             </ScrollAnimation>
@@ -32,7 +32,7 @@
                   </Button>
                 </NuxtLink>
                 <NuxtLink to="/how-it-works">
-                  <Button variant="outline" class="px-8 py-3 border-2 border-primary text-primary hover:bg-primary/5 rounded-full font-medium text-center transition-all">
+                  <Button variant="outline" class="px-8 py-3 border-2 border-primary text-primary bg-white hover:bg-primary/5 rounded-full font-medium text-center transition-all">
                     How It Works
                   </Button>
                 </NuxtLink>
@@ -53,7 +53,7 @@
                   </div>
                 </div>
                 <div class="text-sm">
-                  <span class="font-bold">100+ Happy Customers</span>
+                  <span class="font-bold text-gray-900">100+ Happy Customers</span>
                   <div class="flex text-yellow-400">
                     <Icon name="lucide:star" class="h-4 w-4" v-for="i in 5" :key="i" />
                     <span class="text-gray-600 ml-1">4.8/5</span>
@@ -124,7 +124,7 @@
               <div class="bg-primary/10 text-primary p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <Icon name="lucide:globe" class="w-6 h-6" />
               </div>
-              <h3 class="text-xl font-bold font-heading mb-3">Global Sourcing</h3>
+              <h3 class="text-xl font-bold font-heading mb-3 text-foreground">Global Sourcing</h3>
               <p class="text-gray-600">We source quality products from trusted suppliers worldwide to bring you the best options.</p>
             </div>
           </ScrollAnimation>
@@ -134,7 +134,7 @@
               <div class="bg-secondary/10 text-secondary p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <Icon name="lucide:thumbs-up" class="w-6 h-6" />
               </div>
-              <h3 class="text-xl font-bold font-heading mb-3">Verified Marketplaces</h3>
+              <h3 class="text-xl font-bold font-heading mb-3  text-foreground">Verified Marketplaces</h3>
               <p class="text-gray-600">We source exclusively from authenticated retailers and official brand stores to guarantee product authenticity.</p>
             </div>
           </ScrollAnimation>
@@ -144,7 +144,7 @@
               <div class="bg-accent/10 text-accent p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <Icon name="lucide:truck" class="w-6 h-6" />
               </div>
-              <h3 class="text-xl font-bold font-heading mb-3">Hassle-Free Delivery</h3>
+              <h3 class="text-xl font-bold font-heading mb-3 text-foreground">Hassle-Free Delivery</h3>
               <p class="text-gray-600">We handle all the shipping logistics, customs clearance, and delivery to your doorstep.</p>
             </div>
           </ScrollAnimation>

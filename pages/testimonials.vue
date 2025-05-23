@@ -5,7 +5,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto">
           <ScrollAnimation>
-            <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6">What Our Customers Say</h1>
+            <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">What Our Customers Say</h1>
             <p class="text-gray-600 text-lg mb-8">
               Don't just take our word for it. Here's what some of our happy customers have to say about their experience with GlobalGrab Kenya.
             </p>
@@ -27,7 +27,7 @@
                   </div>
                   
                   <ScrollAnimation :delay="0.3" direction="up">
-                    <h2 class="text-2xl font-bold font-heading mb-6">
+                    <h2 class="text-2xl font-bold font-heading mb-6 text-gray-900">
                       Exceptional Service From Start to Finish
                     </h2>
                   </ScrollAnimation>
@@ -44,7 +44,7 @@
                         <Icon name="lucide:briefcase" class="h-8 w-8" />
                       </div>
                       <div>
-                        <h4 class="text-xl font-bold">James Mwangi</h4>
+                        <h4 class="text-xl font-bold text-gray-900">James Mwangi</h4>
                         <p class="text-gray-600">Business Owner, Nakuru</p>
                       </div>
                     </div>
@@ -75,7 +75,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <ScrollAnimation>
-            <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4">More Customer Stories</h2>
+            <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4 text-foreground">More Customer Stories</h2>
             <p class="text-gray-600">See what our clients have to say about their experiences with GlobalGrab Kenya.</p>
           </ScrollAnimation>
         </div>
@@ -283,7 +283,7 @@ const TestimonialCard = defineComponent({
               })
             ]),
             h('div', {}, [
-              h('h4', { class: 'font-bold text-lg' }, this.testimonial.name),
+              h('h4', { class: 'font-bold text-lg text-gray-900' }, this.testimonial.name),
               h('p', { class: 'text-sm text-gray-500' }, `${this.testimonial.position}, ${this.testimonial.location}`)
             ])
           ]),

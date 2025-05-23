@@ -13,7 +13,7 @@
             v-motion
             :initial="{ opacity: 0, y: 20 }"
             :enter="{ opacity: 1, y: 0, transition: { delay: 0.2 } }"
-            class="text-3xl font-bold font-heading mb-6"
+            class="text-3xl text-foreground font-bold font-heading mb-6"
           >
             Refund Policy
           </h1>
@@ -160,15 +160,15 @@
             </p>
             <p class="mt-3">
               <strong>Email:</strong> returns@globalgrab.co.ke<br>
-              <strong>Phone:</strong> +254 700 000 000<br>
-              <strong>Address:</strong> Global Plaza, Nairobi, Kenya
+              <strong>Phone:</strong> +254 711 395 142<br>
+              <strong>Address:</strong> Nairobi, Kenya
             </p>
           </div>
         </div>
         
         <div class="mt-12 pt-8 border-t border-gray-200">
           <NuxtLink to="/">
-            <Button variant="outline" class="text-primary border-primary hover:bg-primary/5">
+            <Button variant="outline" class="text-primary border-primary bg-white hover:bg-primary/5">
               <ArrowLeft class="mr-2 h-4 w-4" />
               Back to Home
             </Button>

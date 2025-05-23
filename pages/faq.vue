@@ -47,7 +47,7 @@
               >
                 <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border-l-4 border-primary mb-4">
                   <div 
-                    class="px-5 py-4 text-lg font-bold font-heading text-left flex justify-between items-center cursor-pointer"
+                    class="px-5 py-4 text-lg font-bold font-heading text-left flex justify-between items-center cursor-pointer text-gray-900"
                     @click="toggleFaq(faq.id)"
                   >
                     {{ faq.question }}
@@ -76,7 +76,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <ScrollAnimation>
-            <h2 class="text-3xl font-bold font-heading mb-6">Still Have Questions?</h2>
+            <h2 class="text-3xl font-bold font-heading mb-6 text-foreground">Still Have Questions?</h2>
             <p class="text-gray-600 mb-8 text-lg">
               We're here to help! If you can't find the answer to your question, feel free to contact us directly.
             </p>
@@ -87,7 +87,7 @@
                 </Button>
               </NuxtLink>
               <a href="mailto:hello@globalgrab.co.ke">
-                <Button variant="outline" class="px-8 py-3 border-2 border-primary text-primary hover:bg-primary/5 rounded-full">
+                <Button variant="outline" class="px-8 py-3 border-2 border-primary text-primary bg-white hover:bg-primary/5 rounded-full">
                   Email Us
                 </Button>
               </a>
