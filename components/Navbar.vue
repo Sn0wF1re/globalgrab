@@ -14,7 +14,7 @@
             </div>
           </ScrollAnimation>
           <span>GlobalGrab</span>
-          <span class="text-sm text-secondary font-medium ml-1 mt-1">Kenya</span>
+          <span class="text-sm text-primary font-medium ml-1 mt-1">KE</span>
         </NuxtLink>
       </div>
       
