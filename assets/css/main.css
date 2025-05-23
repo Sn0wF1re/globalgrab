@@ -68,7 +68,8 @@
   }
   
   .font-heading {
-    @apply font-bold tracking-tight --foreground;
+    @apply font-bold tracking-tight;
+    color: hsl(var(--foreground));
   }
 }
   
