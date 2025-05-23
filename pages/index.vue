@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden">
+    <section class="relative pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden hero-section">
       <WorldMapBackground :pulse="true" :opacity="0.09" />
       <div class="container mx-auto px-4 relative">
         <div class="flex flex-col lg:flex-row items-center gap-8 md:gap-12">
@@ -99,18 +99,17 @@
               <div class="absolute -bottom-14 -left-6 bg-white shadow-lg rounded-lg p-4 max-w-xs hidden md:block z-30">
                 <ScrollAnimation :delay="0.8" type="scale" :once="false">
                   <div class="flex items-center gap-3">
-                    <div class="bg-primary/10 text-primary p-2 rounded-full">
+                    <div class="bg-accent/10 text-accent p-2 rounded-full">
                       <Icon name="lucide:truck" class="h-5 w-5" />
                     </div>
                     <div>
                       <p class="font-medium">Fast Delivery</p>
-                      <p class="text-sm text-gray-500">5-20 business days to Kenya</p>
+                      <p class="text-sm text-gray-500">Within 2-3 weeks guaranteed</p>
                     </div>
                   </div>
                 </ScrollAnimation>
               </div>
             </div>
-              
           </div>
         </div>
       </div>
@@ -191,3 +190,12 @@ useHead({
   ]
 })
 </script>
+
+<style scoped>
+@media (max-width: 768px) {
+  .hero-section {
+    background-color: #ffffff !important;
+    background-image: none !important;
+  }
+}
+</style>

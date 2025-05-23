@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="services-page">
     <!-- Header Section -->
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4">
@@ -154,3 +154,24 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+.services-page {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  /* Enhance text contrast on mobile */
+  .text-gray-600 {
+    color: #333333 !important;
+    font-weight: 500;
+  }
+  
+  /* Add background to text cards to improve visibility */
+  .bg-gray-50 {
+    background-color: #f5f5f5 !important;
+    border-width: 2px !important;
+  }
+}
+</style>

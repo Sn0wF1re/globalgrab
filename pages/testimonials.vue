@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="testimonials-page">
     <!-- Header Section -->
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4">
@@ -21,7 +21,7 @@
           <ScrollAnimation>
             <div class="bg-white rounded-2xl shadow-md overflow-hidden">
               <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="p-10 flex flex-col justify-center">
+                <div class="p-6 md:p-10 flex flex-col justify-center">
                   <div class="flex text-yellow-400 mb-6">
                     <Star v-for="i in 5" :key="i" class="fill-current" :size="24" />
                   </div>
@@ -99,28 +99,28 @@
             <ScrollAnimation type="fade" direction="up">
               <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
                 <div class="text-4xl font-bold text-primary mb-2">100+</div>
-                <div class="text-gray-600">Happy Customers</div>
+                <div class="text-lg font-semibold text-gray-700">Happy Customers</div>
               </div>
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.2" type="fade" direction="up">
               <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
                 <div class="text-4xl font-bold text-primary mb-2">98%</div>
-                <div class="text-gray-600">Satisfaction Rate</div>
+                <div class="text-lg font-semibold text-gray-700">Satisfaction Rate</div>
               </div>
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.4" type="fade" direction="up">
               <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
                 <div class="text-4xl font-bold text-primary mb-2">30%</div>
-                <div class="text-gray-600">Average Savings</div>
+                <div class="text-lg font-semibold text-gray-700">Average Savings</div>
               </div>
             </ScrollAnimation>
             
             <ScrollAnimation :delay="0.6" type="fade" direction="up">
               <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
                 <div class="text-4xl font-bold text-primary mb-2">14</div>
-                <div class="text-gray-600">Days Avg. Delivery</div>
+                <div class="text-lg font-semibold text-gray-700">Days Avg. Delivery</div>
               </div>
             </ScrollAnimation>
           </div>
@@ -316,3 +316,25 @@ const TestimonialCard = defineComponent({
   }
 });
 </script>
+
+<style scoped>
+.testimonials-page {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  /* Fix for container overflow on mobile */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Reduce padding on mobile for better fit */
+  .p-10 {
+    padding: 1.5rem !important;
+  }
+}
+</style>

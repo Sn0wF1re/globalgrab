@@ -58,9 +58,9 @@
                 {{ product.badge.text }}
               </div>
               
-              <div class="overflow-hidden">
+              <div class="overflow-hidden product-image-container">
                 <NuxtImg 
-                  class="h-64 w-full object-contain hover:scale-105 transition-transform" 
+                  class="product-image w-full object-contain hover:scale-105 transition-transform" 
                   :src="product.image" 
                   :alt="product.name" 
                   loading="lazy" 
@@ -451,3 +451,23 @@ const getBadgeColor = (color) => {
   return colorMap[color] || 'primary';
 };
 </script>
+
+<style scoped>
+.product-image-container {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .product-image-container {
+    height: 220px;
+  }
+}
+</style>

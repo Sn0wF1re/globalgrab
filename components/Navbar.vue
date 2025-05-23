@@ -65,7 +65,7 @@
                 <NuxtLink 
                   :to="item.path"
                   :class="[
-                    'font-medium py-2 hover:text-primary transition-colors block', 
+                    'font-medium py-2 hover:text-primary transition-colors block text-gray-800', 
                     route.path === item.path ? 'text-primary' : ''
                   ]"
                   @click="closeMobileMenu"
