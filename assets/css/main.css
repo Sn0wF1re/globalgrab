@@ -68,7 +68,7 @@
   }
   
   .font-heading {
-    @apply font-bold tracking-tight text-foreground;
+    @apply font-bold tracking-tight --foreground;
   }
 }
   
