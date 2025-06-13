@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/icon',
     '@nuxtjs/sitemap',
-    '@nuxtjs/gtm'
+    '@zadigetvoltaire/nuxt-gtm'
   ],
   gtm: {
     id: 'GTM-5GZ3SLV5'
