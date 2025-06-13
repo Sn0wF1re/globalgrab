@@ -20,7 +20,7 @@
             
             <ScrollAnimation :delay="0.3" direction="up">
               <p class="text-lg text-gray-600 max-w-lg">
-                We bring the world's best products to your doorstep in Kenya - from refurbished tech to custom shopping requests. Your global gateway to quality at affordable prices.
+                We shop and bring the world's best products to your doorstep in Kenya - from refurbished tech, fashion fits, to custom shopping requests. Your personal shopping global gateway to quality at affordable prices.
               </p>
             </ScrollAnimation>
             

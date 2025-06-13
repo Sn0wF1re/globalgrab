@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'GlobalGrab Kenya - Your trusted personal shopping partner, bringing the world\'s best products to your doorstep. From tech to custom requests - we fetch it all!' },
-        { name: 'keywords', content: 'GlobalGrab, global grab, global grab kenya, shopping, iphone, phone, fragrance, personal shopping, shop, cosmetics, shoes, shirts, dresses, refurb, refurbished, backmarket, asos, shein, reebelo, laptops, laptop' },
+        { name: 'keywords', content: 'GlobalGrab, global grab, global grab kenya, shopping, iphone, phone, fragrance, personal shopping, shopping, shop, cosmetics, shoes, shirts, dresses, refurb, refurbished, backmarket, asos, shein, reebelo, laptops, laptop' },
         { name: 'author', content: 'GlobalGrab Kenya' },
         { name: 'format-detection', content: 'telephone=yes' },
         { property: 'og:title', content: 'GlobalGrab Kenya - Personal Shopping & Fulfillment Services' },
