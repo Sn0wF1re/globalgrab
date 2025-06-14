@@ -47,11 +47,11 @@ export default defineNuxtConfig({
         { property: 'og:description', content: 'Your trusted personal shopping partner, bringing global products to Kenya.' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://globalgrab.co.ke' },
-        { property: 'og:image', content: 'https://globalgrab.co.ke/images/og-image.jpg' },
+        { property: 'og:image', content: 'https://globalgrab.co.ke/images/og-global-grab.png' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'GlobalGrab Kenya - Personal Shopping & Fulfillment' },
         { name: 'twitter:description', content: 'Your trusted personal shopping partner in Kenya.' },
-        { name: 'twitter:image', content: 'https://globalgrab.co.ke/images/twitter-card.jpg' },
+        { name: 'twitter:image', content: 'https://globalgrab.co.ke/images/og-global-grab.png' },
         { name: 'theme-color', content: '#F97029' }
       ],
       link: [
